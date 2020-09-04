@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :quick_picks
   devise_for :users
 
   namespace :v1, defaults: { format: :json } do

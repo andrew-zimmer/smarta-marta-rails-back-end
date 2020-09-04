@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  station: MyString
+  direction: MyString
+  rail: MyString
+
+two:
+  user: two
+  station: MyString
+  direction: MyString
+  rail: MyString
