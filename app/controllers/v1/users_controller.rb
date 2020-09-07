@@ -5,7 +5,7 @@ module V1
             if @user.save
                 render :create
             else
-                render json: {errors: 'not working either'}
+                render json: {errors: @user.errors.full_messages}
             end
         end
 

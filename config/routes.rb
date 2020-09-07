@@ -6,6 +6,6 @@ Rails.application.routes.draw do
     resources :sessions, only: [:create, :destroy]
     resources :users, only: [:create] do
     end
-    resources :moods, only: [:create, :destroy]
+    resources :quick_picks, only: [:create, :destroy]
   end
 end
